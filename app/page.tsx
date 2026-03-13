@@ -16,32 +16,32 @@ export default function Home() {
     {
       title: "SILAB LMS",
       tech: "Next.js • Tailwind",
-      desc: "A collaborative web-based Learning Management System where I led frontend development and improved code maintainability by refactoring large components into modular, reusable structures.",
+      desc: "A collaborative web-based Learning Management System built with Next.js where I contributed to frontend development by refactoring large components into modular and reusable structures, improving code maintainability and scalability.",
       github: null
     },
     {
       title: "PlayLater",
       tech: "Flutter • Firebase • REST API",
-      desc: "A mobile watchlist management app with CRUD features, filtering, search functionality, OMDb API integration, and Firestore database.",
+      desc: "A mobile watchlist application built with Flutter that allows users to manage movies and series using CRUD operations, integrated with OMDb API for movie data and Firebase Firestore for real-time database storage.",
       github: "https://github.com/akbarydh/tugas_akhir_tekmob.git"
     },
     {
       title: "UX Evaluation – Adisty App",
       tech: "UX Research • UI Design • Figma",
-      desc: "Conducted user experience evaluation, data collection, usability analysis, and feature redesign to improve academic support functionality.",
+      desc: "Conducted usability evaluation on an academic support application by performing user research, usability analysis, and interface redesign to improve navigation flow and overall user experience.",
       link: "https://www.figma.com/design/0BWOhY7U1mYLbds1syG743/Untitled?node-id=0-1&t=PH2Npj3TTHhItit8-1",
       linkLabel: "View Case Study"
     },
     {
       title: "ResepKu",
       tech: "React / Vite • Tailwind • JSON Server",
-      desc: "A CRUD-based recipe management web application using a local mock REST API for dynamic data handling.",
+      desc: "A recipe management web application implementing CRUD functionality using a local JSON-based mock REST API for dynamic data handling.",
       github: "https://github.com/akbarydh/Resepkuu_tugas_akhir.git"
     },
     {
       title: "Our Story",
       tech: "Next.js • Supabase • Tailwind",
-      desc: "A fullstack memory web application designed to document relationship milestones with real-time bucket list management, photo galleries, and a custom music player.",
+      desc: "A fullstack web application for documenting relationship milestones with features such as wish list management, photo galleries, and a custom music player.",
       github: "https://github.com/akbarydh/Our-Story-Web.git"
     }
   ];
@@ -119,7 +119,7 @@ export default function Home() {
           <motion.div {...fadeIn}>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">About <span className="text-emerald-400">Me</span></h2>
             <p className="text-gray-400 max-w-2xl mx-auto leading-relaxed text-base md:text-lg">
-              I enjoy building clean and efficient web applications. Currently exploring the fundamentals of system architecture and scalable design.
+              I’m an Information Systems student passionate about building scalable web and mobile applications. I enjoy turning ideas into functional products while continuously exploring system architecture, backend integration, and modern development workflows.
             </p>
           </motion.div>
 
@@ -164,6 +164,8 @@ export default function Home() {
                 <li>Node.js</li>
                 <li>Firebase</li>
                 <li>Supabase</li>
+                 <li>REST API</li>
+                 <li>JSON-based storage</li>
               </ul>
             </div>
             <div>
