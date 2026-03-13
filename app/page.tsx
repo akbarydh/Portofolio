@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 export default function Home() {
-  // Konfigurasi Animasi
+  // ini animasi
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
     whileInView: { opacity: 1, y: 0 },
@@ -49,11 +49,11 @@ export default function Home() {
   return (
     <main className="relative min-h-screen bg-gray-950 text-white overflow-x-hidden font-sans selection:bg-emerald-500/30">
       
-      {/* 1. BACKGROUND AMBIENT */}
+      {/* BACKGROUND  */}
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_40%,rgba(16,185,129,0.08),transparent_60%)] pointer-events-none"></div>
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none"></div>
 
-      {/* 2. NAVBAR */}
+      {/* NAVBAR */}
       <nav className="fixed w-full top-0 z-[100] backdrop-blur-md bg-gray-950/70 border-b border-gray-800/50">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <motion.h1 
@@ -71,11 +71,11 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* 3. HERO SECTION */}
+      {/*  HERO SECTION */}
       <section className="relative pt-32 pb-20 z-10 min-h-[90vh] flex items-center">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           
-          {/* FOTO - Muncul di atas pada Mobile */}
+          
           <motion.div 
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. ABOUT SECTION */}
+      {/* ABOUT SECTION */}
       <section id="about" className="py-24 md:py-32 relative z-10 border-t border-gray-900/50">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <motion.div {...fadeIn}>
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. TECH STACK SECTION */}
+      {/* TECH STACK SECTION */}
       <section className="py-24 md:py-32 bg-gray-900/20 border-y border-gray-900/50 relative z-10">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-12 md:mb-16">Tech <span className="text-emerald-400">Stack</span></h2>
@@ -178,7 +178,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 6. PROJECTS SECTION */}
+      {/* PROJECTS SECTION */}
       <section id="projects" className="py-24 md:py-32 relative z-10">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 italic font-serif">Featured <span className="text-emerald-400 underline underline-offset-8 decoration-gray-900">Projects</span></h2>
@@ -219,7 +219,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. CONTACT SECTION */}
+      {/* CONTACT SECTION */}
       <section id="contact" className="py-24 md:py-32 relative z-10 bg-emerald-500/5">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div {...fadeIn}>
@@ -252,7 +252,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 8. FOOTER */}
+      {/* FOOTER */}
       <footer className="py-12 text-center border-t border-gray-900/50 text-gray-600 text-[10px] tracking-[0.3em] uppercase px-6">
         © 2026 Akbar Portfolio — Yogyakarta, Indonesia
       </footer>
