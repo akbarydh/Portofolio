@@ -15,7 +15,7 @@ export default function Home() {
   const projectData = [
     {
       title: "SILAB LMS",
-      tech: "Next.js • Firebase • Tailwind",
+      tech: "Next.js • Tailwind",
       desc: "A collaborative web-based Learning Management System where I led frontend development and improved code maintainability by refactoring large components into modular, reusable structures.",
       github: null
     },
@@ -61,9 +61,9 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             className="text-xl font-bold tracking-tighter text-emerald-400"
           >
-            Akbar.
+            Akbar Yudho Intiyo
           </motion.h1>
-          <div className="hidden md:flex gap-8 text-sm font-medium text-gray-400">
+          <div className="flex gap-4 md:gap-8 text-xs md:text-sm font-medium text-gray-400">
             <a href="#about" className="hover:text-emerald-400 transition-colors">About</a>
             <a href="#projects" className="hover:text-emerald-400 transition-colors">Projects</a>
             <a href="#contact" className="hover:text-white transition-colors">Contact</a>
