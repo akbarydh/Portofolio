@@ -183,6 +183,7 @@ export default function Home() {
                 <li>Git / GitHub</li>
                 <li>VS Code</li>
                 <li>Figma</li>
+                <li>Postman</li>
               </ul>
             </div>
           </div>
