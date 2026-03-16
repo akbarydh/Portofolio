@@ -14,6 +14,12 @@ export default function Home() {
   // Data Proyek
   const projectData = [
     {
+  title: "Task Management API",
+  tech: "Next.js API Routes • PostgreSQL • Prisma ORM • JWT Auth",
+  desc: "A secure RESTful task management API featuring JWT-based authentication, middleware route protection, and relational data modeling using PostgreSQL with Prisma ORM. Provides full CRUD operations for authenticated users.",
+  github: "https://github.com/akbarydh/Task-Management-REST-API.git"
+    },
+    {
       title: "SILAB LMS",
       tech: "Next.js • Tailwind",
       desc: "A collaborative web-based Learning Management System built with Next.js where I contributed to frontend development by refactoring large components into modular and reusable structures, improving code maintainability and scalability.",
@@ -161,11 +167,14 @@ export default function Home() {
             <div>
               <h3 className="text-emerald-400 font-bold mb-4 uppercase tracking-widest text-xs">Backend</h3>
               <ul className="space-y-2 text-gray-400 font-medium">
-                <li>Node.js</li>
+                <li>Node.js / Next.js API</li>
                 <li>Firebase</li>
                 <li>Supabase</li>
-                 <li>REST API</li>
+                 <li>REST API Development</li>
+                 <li>PostgreSQL</li>
                  <li>JSON-based storage</li>
+                <li>JWT Authentication</li>
+                <li>Prisma ORM</li>
               </ul>
             </div>
             <div>
